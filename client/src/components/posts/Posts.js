@@ -1,17 +1,14 @@
-import { Box } from '@mui/material'
 import React from 'react'
-import HeroSection from '../sections/hero/HeroSection'
 import LatestPost from '../sections/latestPosts/LatestPost'
 import SubcriptionSection from '../sections/subscriptionSection/SubcriptionSection'
 
-function Home() {
+function Posts() {
   return (
-    <Box>
-      <HeroSection />
+    <div>
       <LatestPost />
       <SubcriptionSection />
-    </Box>
+    </div>
   )
 }
 
-export default Home
+export default Posts

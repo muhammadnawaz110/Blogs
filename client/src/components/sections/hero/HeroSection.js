@@ -7,7 +7,7 @@ import Man from '../../../statics/image/Man.png'
 function HeroSection() {
   return (
     <Box>
-        <Grid container margin={'5rem'}>
+        <Grid container marginTop={'5rem'}>
             <Grid item md={8} xs={12} textAlign={'start'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
                 <Box>
                     <Typography margin={'1rem 0'} fontSize={'2rem' } color={'#fff'} fontWeight={700}>
@@ -17,7 +17,7 @@ function HeroSection() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus malesuada nisi tellus, non imperdiet nisi tempor at.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore.
+                        sed do eiusmod tempor incididunt ut labore et dolore.d
                     </Typography>
                     <Box>
                         <i style={heroSectionStyle.twitterIcon} className='fa-brands fa-twitter'></i>
